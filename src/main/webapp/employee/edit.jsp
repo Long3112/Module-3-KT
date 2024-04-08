@@ -23,25 +23,25 @@
   <div class="form-row">
     <div class="form-group col-md-6">
       <label for="inputEmail4">Name</label>
-      <input type="text" class="form-control" id="inputEmail4" name="name" value="${staffEdit.name}">
+      <input type="text" class="form-control" id="inputEmail4" name="name" value="${employeeEdit.name}">
     </div>
     <div class="form-group col-md-6">
       <label for="inputPassword4">Phone</label>
-      <input type="text" class="form-control" id="inputPassword4" name="phone" value="${staffEdit.phone}">
+      <input type="text" class="form-control" id="inputPassword4" name="phone" value="${employeeEdit.phone}">
     </div>
   </div>
   <div class="form-group">
     <label for="inputAddress">Address</label>
-    <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St" name="address" value="${staffEdit.address}">
+    <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St" name="address" value="${employeeEdit.address}">
   </div>
   <div class="form-group">
     <label for="inputAddress2">Email</label>
-    <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor" name="email" value="${staffEdit.email}">
+    <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor" name="email" value="${employeeEdit.email}">
   </div>
   <div class="form-row">
     <div class="form-group col-md-6">
       <label for="inputCity">Salary</label>
-      <input type="text" class="form-control" id="inputCity" name="salary" value="${staffEdit.salary}">
+      <input type="text" class="form-control" id="inputCity" name="salary" value="${employeeEdit.salary}">
     </div>
     <div class="form-group col-md-4">
       <label for="inputState">Department</label>
