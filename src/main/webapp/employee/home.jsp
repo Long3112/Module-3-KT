@@ -46,8 +46,8 @@
         <td>${employee.phone}</td>
         <td>${employee.salary}</td>
         <td>${employee.department.name}</td>
-        <td><button type="button" class="btn btn-primary"  href="http://localhost:8080/staff?action=edit=${employees.id}">Sua</button></td>
-        <td><button type="button" class="btn btn-primary" onclick="deleteEmployee(${employees.id})">Xoa</button></td>
+        <td><button type="button" class="btn btn-primary"  href="http://localhost:8080/staff?action=edit=${employee.id}">Sua</button></td>
+        <td><button type="button" class="btn btn-primary" onclick="deleteEmployee(${employee.id})">Xoa</button></td>
         </c:forEach>
 
 
